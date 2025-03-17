@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components {
+  .p-text {
+    font-size: 1.4rem;
+    letter-spacing: -0.5px;
+    line-height: 1.7;
+  }
+
+  .major-sec {
+    padding: 0 19.4rem;
+  }
+  .pfont {
+    font-family: "Anton", sans-serif;
+  }
+  .btn {
+    font-family: "Roboto", sans-serif;
+    @apply p-3 text-btnText pt-1 uppercase pb-2 rounded-md transition duration-500;
+  }
+
+  .s-flex {
+    @apply flex justify-center items-center;
+  }
+}
